@@ -38,7 +38,7 @@ void AVLTree_katastrofi(typos_deikti *riza);
 void AVLTree_anazitisi(typos_deikti riza, TStoixeiouDDA stoixeio, typos_deikti *deiktis, int *found);
 void AVLTree_periexomeno(typos_deikti riza,TStoixeiouDDA *stoixeio);
 
-TStoixeiouDDA AVLTree_data(typos_deikti tree);
-int AVLTree_data_key(typos_deikti tree);
+
+
 
 #endif /*#ifndef __CH8_AVLPOINTER__ */

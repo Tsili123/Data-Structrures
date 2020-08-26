@@ -14,8 +14,9 @@ EvrPtr EvrConstruct(int MaxSize);	/* gia erwthma 1 */
 int EvrDestruct(EvrPtr *E);		/* gia erwthma 5 */
 
 int EvrInsert(EvrPtr E, TStoixeiouEvr Data); /* gia erwthma 2 */
-//int EvrSearch(EvrPtr E, keyType key, int InOut/*, int * found*/); /* gia erwthma 3 */
-int EvrSearch(EvrPtr E, keyType key, int InOut, int * countera,int *counterb);
+int EvrSearch(EvrPtr E, keyType key, int InOut, int * found); /* gia erwthma 3 */
 int EvrPrintAll(EvrPtr E, FILE *out, int *counter); /* gia Erwthma 4 */
+int Evr_katastrofi(EvrPtr *E);
+
 
 #endif

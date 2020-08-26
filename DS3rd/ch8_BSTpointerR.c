@@ -116,8 +116,6 @@ typos_deikti Tree_dpaidi(typos_deikti pateras){
 		return NULL;
 }
 
-
-
 void Tree_pateras(typos_deikti tree, typos_deikti *pateras, typos_deikti paidi, int *error)
 {
 	if(Tree_keno(tree)||Tree_keno(paidi)||TSDDA_iso(paidi->dedomena, tree->dedomena))
